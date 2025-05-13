@@ -239,7 +239,7 @@
             "labResult": "10.8",
             "reactionDegree": "3",
             "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
-            "labelColor": "#9cdb9b",
+            "labelColor": "#f5d15d",
             "therapyRecomExclude": "0",
             "allergens": [
               {
@@ -260,7 +260,7 @@
             "labResult": "10.8",
             "reactionDegree": "3",
             "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
-            "labelColor": "#9cdb9b",
+            "labelColor": "#f5d15d",
             "therapyRecomExclude": "0",
             "allergens": [
               {
