@@ -1,0 +1,2834 @@
+{
+  "data": {
+    "categories": [
+      {
+        "name": "Glutenhaltiges Getreide",
+        "id": 82,
+        "icon": "\u003Cspan class=\u0022flaticon-wheat10\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Dinkel",
+            "id": 174,
+            "labResult": "9.2",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 170,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "9.4"
+              }
+            ]
+          },
+          {
+            "name": "Gerste",
+            "id": 169,
+            "labResult": "9.5",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 170,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "9.4"
+              }
+            ]
+          },
+          {
+            "name": "Gluten (Gliadin)",
+            "id": 170,
+            "labResult": "9.4",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Gr\u00fcnkern",
+            "id": 309,
+            "labResult": "9.0",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 170,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "9.4"
+              }
+            ]
+          },
+          {
+            "name": "Hafer",
+            "id": 172,
+            "labResult": "8.2",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 170,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "9.4"
+              }
+            ]
+          },
+          {
+            "name": "Roggen",
+            "id": 173,
+            "labResult": "10.8",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 170,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "9.4"
+              }
+            ]
+          },
+          {
+            "name": "Weizen",
+            "id": 175,
+            "labResult": "12.1",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 170,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "9.4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Candida und Aspergillus",
+        "id": 83,
+        "icon": "\u003Cspan class=\u0022icon-grapes\u0022\u003E\u003C\/span\u003E",
+        "foods": []
+      },
+      {
+        "name": "Naturstoffe",
+        "id": 85,
+        "icon": "",
+        "foods": []
+      },
+      {
+        "name": "Individualanforderungen",
+        "id": 86,
+        "icon": "",
+        "foods": []
+      },
+      {
+        "name": "Glutenfreies",
+        "id": 60,
+        "icon": "\u003Cspan class=\u0022flaticon-corn3\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Amarant",
+            "id": 176,
+            "labResult": "5.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Buchweizen",
+            "id": 178,
+            "labResult": "5.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Hirse",
+            "id": 185,
+            "labResult": "1.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Lupinenmehl",
+            "id": 183,
+            "labResult": "0.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Mais\/Maismehl",
+            "id": 184,
+            "labResult": "1.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Maniok",
+            "id": 180,
+            "labResult": "2.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Quinoa",
+            "id": 186,
+            "labResult": "3.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Reis",
+            "id": 187,
+            "labResult": "0.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Teff",
+            "id": 191,
+            "labResult": "4.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Topinambur",
+            "id": 182,
+            "labResult": "5.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Milchprodukte",
+        "id": 67,
+        "icon": "\u003Cspan class=\u0022flaticon-milk2\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Schafsk\u00e4se",
+            "id": 321,
+            "labResult": "10.8",
+            "reactionDegree": "3",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 234,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "10.8"
+              },
+              {
+                "id": 320,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "8.3"
+              }
+            ]
+          },
+          {
+            "name": "Ziegenk\u00e4se",
+            "id": 322,
+            "labResult": "10.8",
+            "reactionDegree": "3",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 232,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "10.3"
+              },
+              {
+                "id": 320,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "8.3"
+              }
+            ]
+          },
+          {
+            "name": "Casein",
+            "id": 320,
+            "labResult": "8.3",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kuhmilch",
+            "id": 226,
+            "labResult": "8.7",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 320,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "8.3"
+              }
+            ]
+          },
+          {
+            "name": "Sauermilchprodukte",
+            "id": 230,
+            "labResult": "8.6",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 226,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "8.7"
+              },
+              {
+                "id": 320,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "8.3"
+              }
+            ]
+          },
+          {
+            "name": "Schafsmilch",
+            "id": 234,
+            "labResult": "10.8",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 320,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "8.3"
+              }
+            ]
+          },
+          {
+            "name": "Ziegenmilch",
+            "id": 232,
+            "labResult": "10.3",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 320,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "8.3"
+              }
+            ]
+          },
+          {
+            "name": "Buttermil.\/Kefir\/Ayran",
+            "id": 225,
+            "labResult": "16.4",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 226,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "8.7"
+              },
+              {
+                "id": 320,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "8.3"
+              }
+            ]
+          },
+          {
+            "name": "Labk\u00e4se",
+            "id": 228,
+            "labResult": "13.8",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 226,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "8.7"
+              },
+              {
+                "id": 320,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "8.3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ei",
+        "id": 58,
+        "icon": "\u003Cspan class=\u0022flaticon-eggs\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "G\u00e4nseei",
+            "id": 167,
+            "labResult": "15.0",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Eigelb",
+            "id": 307,
+            "labResult": "23.2",
+            "reactionDegree": "5",
+            "label": "3",
+            "labelColor": "#dc7d4f",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Eiklar",
+            "id": 308,
+            "labResult": "29.5",
+            "reactionDegree": "5",
+            "label": "3",
+            "labelColor": "#dc7d4f",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Wachtelei",
+            "id": 168,
+            "labResult": "20.3",
+            "reactionDegree": "5",
+            "label": "3",
+            "labelColor": "#dc7d4f",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Hefen",
+        "id": 71,
+        "icon": "\u003Cspan class=\u0022flaticon-delivery29\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Bierhefe",
+            "id": 328,
+            "labResult": "2.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "B\u00e4ckerhefe",
+            "id": 241,
+            "labResult": "0.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Fleisch",
+        "id": 63,
+        "icon": "\u003Cspan class=\u0022flaticon-steak\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Ente",
+            "id": 214,
+            "labResult": "2.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Fasan",
+            "id": 316,
+            "labResult": "1.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Gans",
+            "id": 215,
+            "labResult": "5.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Hirsch",
+            "id": 219,
+            "labResult": "2.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Huhn",
+            "id": 213,
+            "labResult": "2.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kaninchen",
+            "id": 221,
+            "labResult": "6.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pute",
+            "id": 318,
+            "labResult": "0.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Strau\u00df",
+            "id": 216,
+            "labResult": "1.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Wachtel",
+            "id": 217,
+            "labResult": "1.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Weinbergschnecke",
+            "id": 319,
+            "labResult": "0.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Hase",
+            "id": 220,
+            "labResult": "7.4",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Lamm",
+            "id": 210,
+            "labResult": "13.0",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Reh",
+            "id": 222,
+            "labResult": "12.8",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Schwein",
+            "id": 211,
+            "labResult": "14.3",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Wildschwein",
+            "id": 223,
+            "labResult": "13.1",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Ziege",
+            "id": 209,
+            "labResult": "14.8",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pferd",
+            "id": 317,
+            "labResult": "19.1",
+            "reactionDegree": "5",
+            "label": "3",
+            "labelColor": "#dc7d4f",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Rind\/Kalb",
+            "id": 212,
+            "labResult": "19.1",
+            "reactionDegree": "5",
+            "label": "3",
+            "labelColor": "#dc7d4f",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Fisch",
+        "id": 55,
+        "icon": "\u003Cspan class=\u0022flaticon-fish52\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Aal",
+            "id": 135,
+            "labResult": "0.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Forelle",
+            "id": 154,
+            "labResult": "2.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Heilbutt",
+            "id": 139,
+            "labResult": "2.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Hering",
+            "id": 140,
+            "labResult": "1.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kabeljau",
+            "id": 134,
+            "labResult": "0.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Karpfen",
+            "id": 133,
+            "labResult": "3.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kaviar",
+            "id": 302,
+            "labResult": "0.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Lachs",
+            "id": 148,
+            "labResult": "2.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Makrele",
+            "id": 142,
+            "labResult": "2.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pangasius",
+            "id": 141,
+            "labResult": "0.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Rotbarsch",
+            "id": 143,
+            "labResult": "0.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Sardelle",
+            "id": 303,
+            "labResult": "0.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Sardine",
+            "id": 149,
+            "labResult": "5.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Schellfisch",
+            "id": 137,
+            "labResult": "2.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Scholle",
+            "id": 145,
+            "labResult": "6.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Seehecht",
+            "id": 138,
+            "labResult": "1.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Seelachs",
+            "id": 146,
+            "labResult": "0.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Seezunge",
+            "id": 152,
+            "labResult": "3.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Thunfisch",
+            "id": 155,
+            "labResult": "2.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Zander",
+            "id": 156,
+            "labResult": "1.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Dorade",
+            "id": 136,
+            "labResult": "8.8",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Meeresfr\u00fcchte",
+        "id": 80,
+        "icon": "\u003Cspan class=\u0022flaticon-crabs1\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Auster",
+            "id": 158,
+            "labResult": "4.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Garnele",
+            "id": 163,
+            "labResult": "3.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Hummer",
+            "id": 162,
+            "labResult": "0.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Jakobsmuschel",
+            "id": 159,
+            "labResult": "1.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Krabbe",
+            "id": 305,
+            "labResult": "3.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Krebs",
+            "id": 161,
+            "labResult": "2.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Languste",
+            "id": 306,
+            "labResult": "0.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Miesmuschel",
+            "id": 157,
+            "labResult": "6.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Tintenfisch",
+            "id": 334,
+            "labResult": "2.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "N\u00fcsse \u0026 Samen",
+        "id": 62,
+        "icon": "\u003Cspan class=\u0022flaticon-food14\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Baumwollsaat",
+            "id": 310,
+            "labResult": "2.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Cashewkern",
+            "id": 194,
+            "labResult": "0.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Erdmandel",
+            "id": 312,
+            "labResult": "0.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Erdnuss",
+            "id": 200,
+            "labResult": "1.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Hanfsamen",
+            "id": 313,
+            "labResult": "0.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Haselnuss",
+            "id": 197,
+            "labResult": "4.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kakao",
+            "id": 195,
+            "labResult": "1.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kokosnuss",
+            "id": 196,
+            "labResult": "3.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Leinsamen",
+            "id": 198,
+            "labResult": "4.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Macadamianuss",
+            "id": 199,
+            "labResult": "2.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Marone\/Esskastanie",
+            "id": 314,
+            "labResult": "2.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Mohn",
+            "id": 203,
+            "labResult": "3.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Paranuss",
+            "id": 193,
+            "labResult": "5.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pekannuss",
+            "id": 315,
+            "labResult": "1.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pinienkern",
+            "id": 201,
+            "labResult": "1.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pistazie",
+            "id": 202,
+            "labResult": "1.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Sesam",
+            "id": 205,
+            "labResult": "2.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Sonnenblumenkern",
+            "id": 206,
+            "labResult": "1.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Walnuss",
+            "id": 207,
+            "labResult": "3.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Chiasamen",
+            "id": 311,
+            "labResult": "9.9",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "K\u00fcrbiskern",
+            "id": 204,
+            "labResult": "6.7",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Mandel",
+            "id": 192,
+            "labResult": "7.9",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "H\u00fclsenfr\u00fcchte",
+        "id": 47,
+        "icon": "\u003Cspan class=\u0022flaticon-peas\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Bohne, dick",
+            "id": 43,
+            "labResult": "1.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Bohne, gr\u00fcn",
+            "id": 45,
+            "labResult": "0.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Bohne, wei\u00df",
+            "id": 287,
+            "labResult": "0.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Erbse",
+            "id": 46,
+            "labResult": "2.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kichererbse",
+            "id": 44,
+            "labResult": "4.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kidneybohne",
+            "id": 288,
+            "labResult": "1.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Linse",
+            "id": 48,
+            "labResult": "4.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Mungbohne",
+            "id": 49,
+            "labResult": "1.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Sojabohne",
+            "id": 50,
+            "labResult": "3.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Tofu",
+            "id": 289,
+            "labResult": "1.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 50,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "3.1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gem\u00fcse",
+        "id": 46,
+        "icon": "\u003Cspan class=\u0022flaticon-vegetable9\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Artischocke",
+            "id": 6,
+            "labResult": "1.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Aubergine",
+            "id": 8,
+            "labResult": "2.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Bambussprosse",
+            "id": 9,
+            "labResult": "0.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Blumenkohl",
+            "id": 14,
+            "labResult": "3.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Chinakohl",
+            "id": 20,
+            "labResult": "2.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Gurke",
+            "id": 22,
+            "labResult": "0.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kartoffel",
+            "id": 32,
+            "labResult": "2.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kohlrabi",
+            "id": 25,
+            "labResult": "3.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "K\u00fcrbis",
+            "id": 33,
+            "labResult": "3.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Mangold",
+            "id": 16,
+            "labResult": "1.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Meerrettich",
+            "id": 109,
+            "labResult": "1.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Olive, gr\u00fcn",
+            "id": 29,
+            "labResult": "0.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Olive, schwarz",
+            "id": 279,
+            "labResult": "1.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pastinake",
+            "id": 31,
+            "labResult": "3.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Porree\/Lauch",
+            "id": 26,
+            "labResult": "2.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Radieschen",
+            "id": 34,
+            "labResult": "3.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Rettich",
+            "id": 281,
+            "labResult": "2.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Rote Beete",
+            "id": 10,
+            "labResult": "2.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Rotkohl",
+            "id": 35,
+            "labResult": "6.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Runkelr\u00fcbe",
+            "id": 282,
+            "labResult": "0.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Sauerkraut",
+            "id": 283,
+            "labResult": "2.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Schalotte",
+            "id": 284,
+            "labResult": "0.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Schwarzwurzel",
+            "id": 285,
+            "labResult": "0.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Sellerie",
+            "id": 15,
+            "labResult": "3.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Selleriestange",
+            "id": 286,
+            "labResult": "1.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Spinat",
+            "id": 38,
+            "labResult": "2.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Steckr\u00fcbe",
+            "id": 36,
+            "labResult": "5.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "S\u00fc\u00dfkartoffel",
+            "id": 189,
+            "labResult": "1.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Weinbl\u00e4tter",
+            "id": 278,
+            "labResult": "2.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Wei\u00dfkohl",
+            "id": 42,
+            "labResult": "6.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Wirsingkohl",
+            "id": 37,
+            "labResult": "4.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Zucchini",
+            "id": 21,
+            "labResult": "6.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Zwiebel",
+            "id": 30,
+            "labResult": "4.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Brokkoli",
+            "id": 11,
+            "labResult": "7.6",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Fenchel",
+            "id": 23,
+            "labResult": "6.5",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Gr\u00fcnkohl",
+            "id": 24,
+            "labResult": "8.2",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Karotte",
+            "id": 13,
+            "labResult": "7.5",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Paprika(schote)",
+            "id": 40,
+            "labResult": "10.8",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Rosenkohl",
+            "id": 12,
+            "labResult": "9.1",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Spargel (gr\u00fcn\/wei\u00df)",
+            "id": 7,
+            "labResult": "7.3",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Tomate",
+            "id": 41,
+            "labResult": "8.2",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Pilze",
+        "id": 70,
+        "icon": "\u003Cspan class=\u0022flaticon-mushroom9\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Austernpilz",
+            "id": 239,
+            "labResult": "1.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Champignon",
+            "id": 238,
+            "labResult": "4.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kr\u00e4uterseitling",
+            "id": 323,
+            "labResult": "1.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Marone (Pilz)",
+            "id": 235,
+            "labResult": "3.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Morchel",
+            "id": 324,
+            "labResult": "1.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pfifferling",
+            "id": 237,
+            "labResult": "1.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Shiitake",
+            "id": 240,
+            "labResult": "0.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Steinpilz",
+            "id": 236,
+            "labResult": "1.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Stockschw\u00e4mmchen",
+            "id": 325,
+            "labResult": "1.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Salate",
+        "id": 76,
+        "icon": "\u003Cspan class=\u0022flaticon-noodles\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Chicor\u00e9e",
+            "id": 252,
+            "labResult": "1.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Eisbergsalat",
+            "id": 255,
+            "labResult": "2.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Endiviensalat",
+            "id": 254,
+            "labResult": "2.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Feldsalat",
+            "id": 256,
+            "labResult": "2.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kopfsalat",
+            "id": 251,
+            "labResult": "1.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Lollo Rosso",
+            "id": 257,
+            "labResult": "1.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "L\u00f6wenzahn",
+            "id": 253,
+            "labResult": "1.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Radicchio",
+            "id": 258,
+            "labResult": "2.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Rucola",
+            "id": 259,
+            "labResult": "7.6",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "R\u00f6mischer Salat",
+            "id": 260,
+            "labResult": "7.2",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Obst \u0026 Fr\u00fcchte",
+        "id": 48,
+        "icon": "\u003Cspan class=\u0022flaticon-grapes3\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Apfel",
+            "id": 51,
+            "labResult": "1.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Aprikose",
+            "id": 52,
+            "labResult": "1.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Aroniabeere",
+            "id": 290,
+            "labResult": "5.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Banane",
+            "id": 53,
+            "labResult": "0.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Birne",
+            "id": 76,
+            "labResult": "4.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Blaubeere",
+            "id": 55,
+            "labResult": "0.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Brombeere",
+            "id": 54,
+            "labResult": "2.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Cranberry",
+            "id": 57,
+            "labResult": "0.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Dattel ",
+            "id": 88,
+            "labResult": "2.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Erdbeere",
+            "id": 85,
+            "labResult": "1.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Granatapfel",
+            "id": 79,
+            "labResult": "1.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Guave",
+            "id": 63,
+            "labResult": "0.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Himbeere",
+            "id": 82,
+            "labResult": "2.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Honigmelone",
+            "id": 64,
+            "labResult": "0.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Johannisbeere",
+            "id": 58,
+            "labResult": "2.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kapstachelbeere",
+            "id": 293,
+            "labResult": "1.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kirsche",
+            "id": 56,
+            "labResult": "0.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kiwi",
+            "id": 65,
+            "labResult": "0.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Limone\/Limette",
+            "id": 67,
+            "labResult": "0.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Litschi",
+            "id": 69,
+            "labResult": "2.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Mango",
+            "id": 71,
+            "labResult": "1.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Maracuja",
+            "id": 292,
+            "labResult": "2.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Nektarine",
+            "id": 72,
+            "labResult": "1.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pfirsich",
+            "id": 75,
+            "labResult": "2.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pflaume",
+            "id": 78,
+            "labResult": "2.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Preiselbeere",
+            "id": 68,
+            "labResult": "0.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Quitte",
+            "id": 81,
+            "labResult": "2.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Rhabarber",
+            "id": 83,
+            "labResult": "0.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Sanddorn",
+            "id": 84,
+            "labResult": "0.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Stachelbeere",
+            "id": 60,
+            "labResult": "1.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Sternfrucht",
+            "id": 291,
+            "labResult": "3.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Wassermelone",
+            "id": 86,
+            "labResult": "1.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Weintraube\/Rosine",
+            "id": 294,
+            "labResult": "2.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Zitrone",
+            "id": 66,
+            "labResult": "5.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Avocado",
+            "id": 89,
+            "labResult": "8.4",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Feige",
+            "id": 59,
+            "labResult": "8.6",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Mandarine",
+            "id": 70,
+            "labResult": "9.4",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pampelmuse",
+            "id": 62,
+            "labResult": "7.4",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Papaya",
+            "id": 74,
+            "labResult": "9.5",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Ananas",
+            "id": 77,
+            "labResult": "16.2",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Orange",
+            "id": 73,
+            "labResult": "12.1",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "S\u00fcssungsmittel",
+        "id": 78,
+        "icon": "\u003Cspan class=\u0022flaticon-honey1\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Agavendicksaft",
+            "id": 270,
+            "labResult": "0.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Ahornsirup",
+            "id": 273,
+            "labResult": "4.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Apfeldicksaft",
+            "id": 332,
+            "labResult": "1.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Honig",
+            "id": 272,
+            "labResult": "2.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Dickungsmittel",
+        "id": 74,
+        "icon": "\u003Cspan class=\u0022flaticon-bottle44\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Agar-Agar (E 406)",
+            "id": 244,
+            "labResult": "1.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Carrageen (E 407)",
+            "id": 245,
+            "labResult": "1.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Gelatine",
+            "id": 326,
+            "labResult": "0.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Guarkernmehl (E 412)",
+            "id": 246,
+            "labResult": "1.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Jo.brotkernmehl (E 410)",
+            "id": 327,
+            "labResult": "2.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pektin (E 440)",
+            "id": 247,
+            "labResult": "1.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Tapioka-St\u00e4rke",
+            "id": 190,
+            "labResult": "4.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Tragant (E 413)",
+            "id": 248,
+            "labResult": "3.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Xanthan (E 415)",
+            "id": 249,
+            "labResult": "2.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Gew\u00fcrze \u0026 Kr\u00e4uter",
+        "id": 52,
+        "icon": "\u003Cspan class=\u0022flaticon-salty\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Anis",
+            "id": 92,
+            "labResult": "1.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Basilikum",
+            "id": 93,
+            "labResult": "3.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Bohnenkraut",
+            "id": 125,
+            "labResult": "4.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "B\u00e4rlauch",
+            "id": 128,
+            "labResult": "0.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Cardamon\/Kardamom",
+            "id": 97,
+            "labResult": "4.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Cayennepfeffer",
+            "id": 295,
+            "labResult": "5.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Chili",
+            "id": 296,
+            "labResult": "2.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Dill",
+            "id": 105,
+            "labResult": "3.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Estragon",
+            "id": 297,
+            "labResult": "2.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Gelbwurz\/Kurkuma",
+            "id": 298,
+            "labResult": "1.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Gew\u00fcrznelke\/Nelke",
+            "id": 101,
+            "labResult": "3.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Knoblauch",
+            "id": 107,
+            "labResult": "3.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Koriander",
+            "id": 102,
+            "labResult": "3.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kresse",
+            "id": 299,
+            "labResult": "6.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kreuzk\u00fcmmel",
+            "id": 103,
+            "labResult": "5.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "K\u00fcmmel",
+            "id": 96,
+            "labResult": "5.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Lavendel",
+            "id": 111,
+            "labResult": "1.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Liebst\u00f6ckel",
+            "id": 113,
+            "labResult": "5.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Lorbeer",
+            "id": 94,
+            "labResult": "6.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Majoran",
+            "id": 114,
+            "labResult": "2.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Muskat",
+            "id": 116,
+            "labResult": "2.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Oregano",
+            "id": 117,
+            "labResult": "3.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Petersilie",
+            "id": 119,
+            "labResult": "5.2",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pfeffer, gr\u00fcn",
+            "id": 301,
+            "labResult": "2.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pfeffer, schwarz",
+            "id": 120,
+            "labResult": "3.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pfeffer, wei\u00df",
+            "id": 121,
+            "labResult": "0.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Rosmarin",
+            "id": 122,
+            "labResult": "3.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Salbei",
+            "id": 124,
+            "labResult": "3.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Schnittlauch",
+            "id": 99,
+            "labResult": "1.5",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Thymian",
+            "id": 126,
+            "labResult": "3.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Vanille",
+            "id": 127,
+            "labResult": "3.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Wacholder",
+            "id": 110,
+            "labResult": "2.6",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Zimt",
+            "id": 100,
+            "labResult": "2.9",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Zitronenmelisse",
+            "id": 112,
+            "labResult": "4.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Alfalfa",
+            "id": 90,
+            "labResult": "6.7",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Ingwer",
+            "id": 108,
+            "labResult": "9.9",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Paprika(gew\u00fcrz)",
+            "id": 118,
+            "labResult": "12.0",
+            "reactionDegree": "3",
+            "label": "1",
+            "labelColor": "#f5d15d",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pepperoni",
+            "id": 300,
+            "labResult": "12.2",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Senf",
+            "id": 115,
+            "labResult": "12.6",
+            "reactionDegree": "4",
+            "label": "2",
+            "labelColor": "#f9b457",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Besonderes",
+        "id": 79,
+        "icon": "\u003Cspan class=\u0022flaticon-halloween53\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Algen, Nori",
+            "id": 129,
+            "labResult": "1.4",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Algen, Spirulina",
+            "id": 130,
+            "labResult": "1.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Aloe Vera",
+            "id": 274,
+            "labResult": "4.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          }
+        ]
+      },
+      {
+        "name": "Getr\u00e4nke",
+        "id": 81,
+        "icon": "\u003Cspan class=\u0022flaticon-drinking2\u0022\u003E\u003C\/span\u003E",
+        "foods": [
+          {
+            "name": "Brennessel",
+            "id": 263,
+            "labResult": "2.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Gr\u00fcner Tee",
+            "id": 269,
+            "labResult": "6.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Hagebutte",
+            "id": 266,
+            "labResult": "3.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kaffee",
+            "id": 262,
+            "labResult": "3.1",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Kamille",
+            "id": 261,
+            "labResult": "4.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Lindenbl\u00fcte",
+            "id": 330,
+            "labResult": "4.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Malve\/Hibiskus",
+            "id": 329,
+            "labResult": "3.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Melisse",
+            "id": 333,
+            "labResult": "2.7",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Pfefferminz",
+            "id": 264,
+            "labResult": "3.0",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Rooibusch",
+            "id": 265,
+            "labResult": "2.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Schwarzer Tee",
+            "id": 331,
+            "labResult": "5.8",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0"
+          },
+          {
+            "name": "Tannin (Wein)",
+            "id": 267,
+            "labResult": "2.3",
+            "reactionDegree": "0",
+            "label": "\u003Ci class=\u0022fa fa-circle\u0022\u003E\u003C\/i\u003E",
+            "labelColor": "#9cdb9b",
+            "therapyRecomExclude": "0",
+            "allergens": [
+              {
+                "id": 294,
+                "label": "\u003Ci class=\u0022fa fa-exclamation-triangle\u0022\u003E\u003C\/i\u003E",
+                "labResult": "2.7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "IGE allergens",
+        "id": 84,
+        "icon": "",
+        "foods": []
+      }
+    ],
+    "globalLR": [
+      {
+        "id": "1",
+        "name": "Diaminooxidase (DAO)",
+        "slug": "DAO",
+        "shortName": "DAO",
+        "shortNameAlt": null,
+        "explanation": null,
+        "value": "22.35",
+        "valuePrefix": null
+      }
+    ]
+  },
+  "recipes_url": "https:\/\/reports.food-sensor.de\/api\/mobile\/job\/recipes",
+  "notifications_url": "https:\/\/reports.food-sensor.de\/api\/mobile\/notifications"
+}
